@@ -4,23 +4,16 @@ from django.core.validators import RegexValidator
 from django.conf import settings
 from source.CDR import SpanningForeignKey
 import uuid
-
-# from Relationships.models import *
-# from portal.models import *
-
 import datetime
 from django.utils import timezone
-# Create your models here.
 
-# USERNAME_REGEX = '^[a-z-A-Z0-9.+-]*$'
 
 def jwt_get_secret_key(user_model):
+    """ Secret key generator for JSON Web Token for extra security  """
     return user_model.jwt_secret
 
 class UserManager(BaseUserManager):
-
-    # use_in_migrations = True
-
+    """ Custom User model table manager """
     def create_user(self, username, email, full_name, is_active=True, is_staff=False, is_admin=False, password=None):
         if not username:
             raise ValueError('Users must have an username')
@@ -33,10 +26,7 @@ class UserManager(BaseUserManager):
             email = self.normalize_email(email),
             full_name = full_name,
         )
-        # user.full_name = full_name
-        # user.email = email = self.normalize_email(email)
         user.set_password(password)
-        # user.location = location
         user.active = is_active
         user.staff = is_staff
         user.admin = is_admin
@@ -73,10 +63,10 @@ class UserManager(BaseUserManager):
     
 
 class User(AbstractBaseUser):
+    """ Custom User model contoller for the User table """
     username            = models.CharField(max_length=255, unique=True)
     email               = models.EmailField(max_length=255, unique=True)
     full_name           = models.CharField(max_length=255, blank=True, null=True)
-    # custparent          = models.ManyToManyField('portal.Custparent', related_name='facility')
     custparent          = models.ManyToManyField('portal.Custparent', related_name='facility', through='Relation')
     active              = models.BooleanField(default=True)
     staff               = models.BooleanField(default=False)
@@ -92,29 +82,19 @@ class User(AbstractBaseUser):
     class Meta:
         db_table = 'user'
 
-    # def __str__(self):
-    #     return self.username
 
-    # def get_active(self):
     def facility(self):
+        """ Allows the facility field to be seen in the admin """
         return ", ".join([str(c) for c in self.custparent.all()])
         
 
-
-    def get_full_name(self):
-        if self.full_name:
-            return self.full_name
-        return self.username
-
-    def get_short_name(self):
-        return self.username
-
-    # @staticmethod
     def has_perm(self, perm, obj=None):
+        """ Custom permissions """
         return True
 
-    # @staticmethod
+    
     def has_module_perms(self, app_label):
+        """ Custom permissions """
         return True
 
     @property
@@ -130,6 +110,7 @@ class User(AbstractBaseUser):
 
 
 class Relation(models.Model):
+    """ Many to Many Relationship table for the Users and the Custparent table """
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING)
     custparent = SpanningForeignKey('portal.Custparent', related_name='profile', on_delete=models.DO_NOTHING)
 

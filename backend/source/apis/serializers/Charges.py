@@ -1,7 +1,4 @@
 from django.db import models
-# from django.conf import settings
-# from Patients.models import *
-# from Charges.models import *
 from ..models import *
 from rest_framework import serializers
 
