@@ -1,0 +1,139 @@
+from django.db import models
+from django.contrib.auth.models import PermissionsMixin, AbstractBaseUser, BaseUserManager
+from django.core.validators import RegexValidator
+from django.conf import settings
+from source.CDR import SpanningForeignKey
+import uuid
+
+# from Relationships.models import *
+# from portal.models import *
+
+import datetime
+from django.utils import timezone
+# Create your models here.
+
+# USERNAME_REGEX = '^[a-z-A-Z0-9.+-]*$'
+
+def jwt_get_secret_key(user_model):
+    return user_model.jwt_secret
+
+class UserManager(BaseUserManager):
+
+    # use_in_migrations = True
+
+    def create_user(self, username, email, full_name, is_active=True, is_staff=False, is_admin=False, password=None):
+        if not username:
+            raise ValueError('Users must have an username')
+        if not email:
+            raise ValueError('Users must have an email')
+        if not full_name:
+            raise ValueError("User must have a full name")
+        user = self.model(
+            username = username, 
+            email = self.normalize_email(email),
+            full_name = full_name,
+        )
+        # user.full_name = full_name
+        # user.email = email = self.normalize_email(email)
+        user.set_password(password)
+        # user.location = location
+        user.active = is_active
+        user.staff = is_staff
+        user.admin = is_admin
+        user.save(using=self._db)
+        return user
+    
+    def create_staffuser(self, username, email, full_name, password=None):
+        user = self.create_user(
+            username,
+            email,
+            full_name,
+            is_staff=True,
+            is_admin=True,
+            password=password,
+        )
+        return user
+
+    def create_superuser(self, username, email, full_name, password=None):
+        user = self.create_user(
+            username,
+            email,
+            full_name,
+            password=password,
+            is_staff=True,
+            is_admin=True,
+            # is_superuser=True
+        ),
+        # user.save(using=self._db)
+        return user
+
+    def get_by_natural_key(self, username):
+        return self.get(username=username)
+
+    
+
+class User(AbstractBaseUser):
+    username            = models.CharField(max_length=255, unique=True)
+    email               = models.EmailField(max_length=255, unique=True)
+    full_name           = models.CharField(max_length=255, blank=True, null=True)
+    # custparent          = models.ManyToManyField('portal.Custparent', related_name='facility')
+    custparent          = models.ManyToManyField('portal.Custparent', related_name='facility', through='Relation')
+    active              = models.BooleanField(default=True)
+    staff               = models.BooleanField(default=False)
+    admin               = models.BooleanField(default=False)
+    jwt_secret          = models.UUIDField(default=uuid.uuid4)
+    created_at          = models.DateTimeField(auto_now_add=True)
+    
+    USERNAME_FIELD = 'username'
+    REQUIRED_FIELDS = ['email', 'full_name' ]
+
+    objects = UserManager()
+
+    class Meta:
+        db_table = 'user'
+
+    # def __str__(self):
+    #     return self.username
+
+    # def get_active(self):
+    def facility(self):
+        return ", ".join([str(c) for c in self.custparent.all()])
+        
+
+
+    def get_full_name(self):
+        if self.full_name:
+            return self.full_name
+        return self.username
+
+    def get_short_name(self):
+        return self.username
+
+    # @staticmethod
+    def has_perm(self, perm, obj=None):
+        return True
+
+    # @staticmethod
+    def has_module_perms(self, app_label):
+        return True
+
+    @property
+    def is_active(self):
+        return self.active
+    @property
+    def is_staff(self):
+        return self.staff
+    @property
+    def is_admin(self):
+        return self.admin
+    
+
+
+class Relation(models.Model):
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING)
+    custparent = SpanningForeignKey('portal.Custparent', related_name='profile', on_delete=models.DO_NOTHING)
+
+    class Meta:
+        db_table= 'relation'
+        unique_together = ('user', 'custparent')
+

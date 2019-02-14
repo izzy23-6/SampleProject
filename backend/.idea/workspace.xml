@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+    <option name="FILTER_RESOLVED_ITEMS" value="false" />
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0742f2b3-80a0-48c9-863a-07e724282110" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/backend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Admin/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Admin/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Admin/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Admin/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Admin/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Admin/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Admin/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Charges/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Charges/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Charges/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Charges/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Charges/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Charges/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Charges/signals.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Patients/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Patients/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Patients/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Patients/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Patients/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Patients/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Patients/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Patients/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Patients/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Products/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Products/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Products/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Products/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Products/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Products/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Products/models/ProductAlias.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Products/models/ProductCost.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Products/models/Products.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Products/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Products/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Products/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Relationships/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Relationships/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Relationships/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Relationships/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Relationships/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Relationships/models/ContractPrice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Relationships/models/Custparent.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Relationships/models/Distributor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Relationships/models/Employee.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Relationships/models/Location.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Relationships/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Relationships/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Test/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Test/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Test/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Test/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Test/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Test/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Test/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/filters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/permissions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/serializers/Base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/serializers/Charges.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/serializers/ChargesSupply.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/serializers/ContractPrice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/serializers/CustomSerializer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/serializers/Custparent.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/serializers/Distributor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/serializers/Employee.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/serializers/IdPatient.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/serializers/ProductCost.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/serializers/Products.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/serializers/ProductsAlias.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/serializers/Reports.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/serializers/User.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/serializers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/views/BaseViews.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/views/ChargesViews.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/views/ContractPriceViews.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/views/CustomViews.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/views/CustparentViews.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/views/DistributorViews.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/views/PatientViews.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/views/ProductCost.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/views/Products.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/views/ProductsAlias.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/views/ProfileViews.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/views/RandomViewset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/views/ReportsViews.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/views/UserViews.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apis/views/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/portal/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/portal/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/portal/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/portal/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/portal/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/portal/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/portal/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/portal/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/CDR.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/GlobalRouter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/JWT_payload_handler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/SuppliesMgrUtils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/users/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/users/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/users/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/users/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/users/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/users/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/users/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/users/signals.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/users/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/users/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/users/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/CSS/Supplies.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/CSS/Supplies.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/JS/Charges.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/JS/Charges.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/JS/Supplies.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/JS/Supplies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/Charges.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/Charges.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/supplies.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/supplies.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/store/modules/auth2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/store/modules/auth2.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/backend$ChargesViews.coverage" NAME="ChargesViews Coverage Results" MODIFIED="1542729357095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/apis/views" />
+    <SUITE FILE_PATH="coverage/backend$CDR.coverage" NAME="CDR Coverage Results" MODIFIED="1547139828497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/source" />
+    <SUITE FILE_PATH="coverage/backend$Products.coverage" NAME="Products Coverage Results" MODIFIED="1547133696971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/Products/models" />
+    <SUITE FILE_PATH="coverage/backend$models__1_.coverage" NAME="models (1) Coverage Results" MODIFIED="1547139685311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/apis" />
+    <SUITE FILE_PATH="coverage/backend$ChargesSupply.coverage" NAME="ChargesSupply Coverage Results" MODIFIED="1547130898591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/apis/serializers" />
+    <SUITE FILE_PATH="coverage/backend$models.coverage" NAME="models Coverage Results" MODIFIED="1547838501475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/Charges" />
+    <SUITE FILE_PATH="coverage/backend$Charges.coverage" NAME="Charges Coverage Results" MODIFIED="1543178991055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/apis/serializers" />
+    <SUITE FILE_PATH="coverage/backend$settings.coverage" NAME="settings Coverage Results" MODIFIED="1547139469370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/source" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)&#10;&#10;os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'source.settings')" module-name="backend" is-module-sdk="true">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)&#10;&#10;os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'source.settings')" />
+    <option name="myUseModuleSdk" value="true" />
+    <option name="myModuleName" value="backend" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="backend" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/Products/models/ProductConv.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/source/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2450">
+              <caret line="99" column="34" selection-start-line="99" selection-start-column="34" selection-end-line="99" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/Products/models/Products.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/apis/serializers/Products.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/apis/views/Products.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/Charges/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="568">
+              <caret line="86" selection-start-line="86" selection-end-line="86" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/apis/views/PatientViews.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Database</find>
+      <find>id</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/project/project/api.py" />
+        <option value="$PROJECT_DIR$/project/apis/serializers/User.py" />
+        <option value="$PROJECT_DIR$/project/apis/serializers/Custparent.py" />
+        <option value="$PROJECT_DIR$/project/apis/serializers/IdPatient.py" />
+        <option value="$PROJECT_DIR$/project/apis/serializers/ContractPrice.py" />
+        <option value="$PROJECT_DIR$/project/apis/serializers/Distributor.py" />
+        <option value="$PROJECT_DIR$/project/project/settings.py" />
+        <option value="$PROJECT_DIR$/project/apis/models.py" />
+        <option value="$PROJECT_DIR$/project/Charges/admin.py" />
+        <option value="$PROJECT_DIR$/project/apis/serializers/Charges.py" />
+        <option value="$PROJECT_DIR$/project/apis/views/ChargesViews.py" />
+        <option value="$PROJECT_DIR$/project/source/manage.py" />
+        <option value="$PROJECT_DIR$/project/Patients/models.py" />
+        <option value="$PROJECT_DIR$/project/manage.py" />
+        <option value="$PROJECT_DIR$/project/users/models.py" />
+        <option value="$PROJECT_DIR$/project/Charges/migrations/0001_initial.py" />
+        <option value="$PROJECT_DIR$/project/Patients/migrations/0001_initial.py" />
+        <option value="$PROJECT_DIR$/project/users/migrations/0001_initial.py" />
+        <option value="$PROJECT_DIR$/project/Charges/models.py" />
+        <option value="$PROJECT_DIR$/project/apis/serializers/__init__.py" />
+        <option value="$PROJECT_DIR$/project/source/settings.py" />
+        <option value="$PROJECT_DIR$/project/source/SuppliesMgrUtils.py" />
+        <option value="$PROJECT_DIR$/project/apis/views/ReportsViews.py" />
+        <option value="$PROJECT_DIR$/project/apis/serializers/ChargesSupply.py" />
+        <option value="$PROJECT_DIR$/project/source/wsgi.py" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/source/source/wsgi.py" />
+        <option value="$PROJECT_DIR$/source/apis/models.py" />
+        <option value="$PROJECT_DIR$/source/apis/views/CustparentViews.py" />
+        <option value="$PROJECT_DIR$/source/Products/models/__init__.py" />
+        <option value="$PROJECT_DIR$/source/apis/views/ProductUnitConvViews.py" />
+        <option value="$PROJECT_DIR$/source/apis/serializers/ContractPrice.py" />
+        <option value="$PROJECT_DIR$/source/Charges/admin.py" />
+        <option value="$PROJECT_DIR$/source/apis/serializers/Charges.py" />
+        <option value="$PROJECT_DIR$/source/Products/models1.py" />
+        <option value="$PROJECT_DIR$/source/apis/serializers/ProductCost.py" />
+        <option value="$PROJECT_DIR$/source/apis/views/ChargesViews.py" />
+        <option value="$PROJECT_DIR$/source/apis/serializers/ProductUnitConv.py" />
+        <option value="$PROJECT_DIR$/source/Products/models/Products.py" />
+        <option value="$PROJECT_DIR$/source/apis/views/Products.py" />
+        <option value="$PROJECT_DIR$/source/apis/views/PatientViews.py" />
+        <option value="$PROJECT_DIR$/source/Products/admin.py" />
+        <option value="$PROJECT_DIR$/source/apis/views/__init__.py" />
+        <option value="$PROJECT_DIR$/source/apis/serializers/__init__.py" />
+        <option value="$PROJECT_DIR$/source/apis/serializers/Products.py" />
+        <option value="$PROJECT_DIR$/source/source/api.py" />
+        <option value="$PROJECT_DIR$/source/source/settings.py" />
+        <option value="$PROJECT_DIR$/source/Products/models/ProductConv.py" />
+        <option value="$PROJECT_DIR$/source/Products/fixtures/ProductConvData.json" />
+        <option value="$PROJECT_DIR$/Pipfile" />
+        <option value="$PROJECT_DIR$/source/Charges/models.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="256" />
+    <option name="y" value="75" />
+    <option name="width" value="1535" />
+    <option name="height" value="824" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name=".vscode" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/.virtualenvs/Backend-p0NFLto_" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="backend" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="backend" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Prototypes\suppliesmgr-web\backend\project" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="backend" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/Charges" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/Charges/models.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <module name="backend" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\iclark\.virtualenvs\suppliesmgr-web-UWTmlT75\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/admin" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.models" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0742f2b3-80a0-48c9-863a-07e724282110" name="Default Changelist" comment="" />
+      <created>1542721292572</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542721292572</updated>
+      <workItem from="1543015811007" duration="4541000" />
+      <workItem from="1543020379632" duration="2008000" />
+      <workItem from="1543178942934" duration="279000" />
+      <workItem from="1543179825037" duration="7884000" />
+      <workItem from="1547044386913" duration="1470000" />
+      <workItem from="1547045885403" duration="895000" />
+      <workItem from="1547047578127" duration="7000" />
+      <workItem from="1547050193668" duration="5000" />
+      <workItem from="1547050437829" duration="4000" />
+      <workItem from="1547050741766" duration="779000" />
+      <workItem from="1547051563043" duration="14730000" />
+      <workItem from="1547130774513" duration="2466000" />
+      <workItem from="1547133397431" duration="1326000" />
+      <workItem from="1547135036214" duration="68155000" />
+      <workItem from="1547730011943" duration="62000" />
+      <workItem from="1547730342868" duration="1696000" />
+      <workItem from="1547732427617" duration="678000" />
+      <workItem from="1547733124377" duration="1381000" />
+      <workItem from="1547745443640" duration="1469000" />
+      <workItem from="1547747925404" duration="303000" />
+      <workItem from="1547838030026" duration="262000" />
+      <workItem from="1547838320882" duration="637000" />
+      <workItem from="1548252443104" duration="588000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="111625000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4983871" visible="true" weight="0.15138593" />
+      <window_info id="Structure" order="1" sideWeight="0.5016129" side_tool="true" weight="0.1369936" />
+      <window_info id="Favorites" order="2" sideWeight="0.5016129" side_tool="true" weight="0.1369936" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.32719547" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.49946696" weight="0.39653304" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32827735" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" sideWeight="0.4989339" weight="0.32719395" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.32827735" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49840087" visible="true" weight="0.27843988" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49946696" weight="0.32827735" />
+      <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/Patients/models.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/Patients/migrations/0001_initial.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/project/apis/serializers/ChargesSupply.py" />
+    <entry file="file://$PROJECT_DIR$/project/Patients/models.py" />
+    <entry file="file://$PROJECT_DIR$/project/Charges/models.py" />
+    <entry file="file://$PROJECT_DIR$/project/source/wsgi.py" />
+    <entry file="file://$PROJECT_DIR$/project/apis/views/ReportsViews.py" />
+    <entry file="file://$PROJECT_DIR$/project/source/settings.py" />
+    <entry file="file://$PROJECT_DIR$/project/source/SuppliesMgrUtils.py" />
+    <entry file="file://$PROJECT_DIR$/.env" />
+    <entry file="file://$PROJECT_DIR$/source/source/CDR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-192">
+          <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/remote_sources/-1741372490/-1382175924/django/db/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="232" selection-start-line="232" selection-end-line="232" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/apis/views/CustparentViews.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Products/models/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/apis/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/apis/serializers/ProductsAlias.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/apis/serializers/ContractPrice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/apis/views/ContractPriceViews.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/portal/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2175" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/users/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2500">
+          <caret line="124" column="16" selection-start-line="124" selection-start-column="16" selection-end-line="124" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Patients/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/apis/serializers/IdPatient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Charges/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Products/models1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="34" selection-start-line="34" selection-end-line="42" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Patients/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/apis/serializers/ProductCost.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Products/models/ProductCost.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/apis/views/ProductCost.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/apis/views/ChargesViews.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/apis/serializers/ProductUnitConv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/apis/serializers/Charges.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="78" column="52" lean-forward="true" selection-start-line="78" selection-start-column="52" selection-end-line="78" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/apis/views/ProductUnitConvViews.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Products/migrations/0002_auto_20190115_0857.py" />
+    <entry file="file://$PROJECT_DIR$/source/Products/migrations/0003_auto_20190115_0858.py" />
+    <entry file="file://$PROJECT_DIR$/source/Products/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="51" column="27" lean-forward="true" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/apis/views/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/apis/serializers/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Products/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/source/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Products/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Products/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-896" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Products/fixtures/Products.json" />
+    <entry file="file://$PROJECT_DIR$/source/Products/fixtures/ProductConvData.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.pylintrc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pipfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/source/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#239#248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Products/models/ProductConv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/source/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2450">
+          <caret line="99" column="34" selection-start-line="99" selection-start-column="34" selection-end-line="99" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Products/models/Products.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/apis/serializers/Products.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/apis/views/Products.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/apis/views/PatientViews.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Charges/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,34 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+django-webpack-loader = "*"
+pytz = "==2017.3"
+django-cors-headers = "*"
+coverage = "*"
+mysql-connector-python = "*"
+mysql-connector = "==2.1.6"
+"pep8" = "*"
+django-guardian = "*"
+djoser = "*"
+djangorestframework-jwt = "*"
+django-filter = "*"
+django-debug-toolbar = "*"
+pipenv = "*"
+pipenv-package-requirements = "*"
+pipenv-tools = "*"
+django-debug-toolbar-request-history = "*"
+wheel = "*"
+autopep8 = "*"
+pytest = "*"
+
+[dev-packages]
+pylint = "*"
+flake8 = "*"
+
+[requires]
+python_version = "3.7"

@@ -1,0 +1,46 @@
+{
+     "workbench.iconTheme": "file-icons",
+     "atomKeymap.promptV3Features": true,
+     "editor.multiCursorModifier": "ctrlCmd",
+     "editor.formatOnPaste": true,
+     "editor.renderIndentGuides": false,
+     "python.linting.flake8Enabled": true,
+     "editor.fontFamily": "Fira Code",
+     "editor.fontLigatures": true,
+     "editor.fontSize": 22,
+     "terminal.integrated.shell.windows": "cmd.exe",
+     "terminal.integrated.shellArgs.windows": [
+         "/k",
+         "%CMDER_ROOT%\\vendor\\init.bat"
+     ],
+     "html.format.indentInnerHtml": true,
+     "vetur.format.defaultFormatter.html": "prettier",
+     "workbench.colorTheme": "One Dark Pro Vivid",
+     "window.zoomLevel": -1,
+     "python.linting.flake8Args": [
+         "--ignore=F401, E501, F403, F405",
+         // "--ignore=E501",
+         // "--ignore=F401",
+         // "--ignore=F403",
+     ],
+     "python.formatting.autopep8Args": [
+         "--max-line-length=200"
+     ],
+     "python.linting.pep8Args": [
+         "--max-line-length=200"
+     ],
+     "editor.tabSize": 4,
+     "python.formatting.yapfArgs": [
+         "--style={ based_on_style: pep8, column_limit: 200 }"
+     ],
+     "editor.wordWrapColumn": 120,
+     "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+     "html.format.indentHandlebars": false,
+     "html.format.wrapAttributes": "aligned-multiple",
+     "html.format.enable": false,
+     "diffEditor.renderSideBySide": true,
+     "diffEditor.ignoreTrimWhitespace": true,
+     "python.disableInstallationCheck": true,
+    "python.linting.pylintEnabled": true,
+    "python.pythonPath": "C:\\Users\\iclark\\.virtualenvs\\Backend-p0NFLto_\\Scripts\\python.exe"
+}

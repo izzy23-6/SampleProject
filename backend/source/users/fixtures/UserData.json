@@ -1,0 +1,50 @@
+[
+{
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$120000$hCcRg4zRaruB$iQEhJ1nuwqS5knPJ1sDdqk+nfm4gcnakOsItE2FlpzE=",
+        "last_login": "2018-12-20T14:56:00.306Z",
+        "username": "admin",
+        "email": "abc@gmail.com",
+        "full_name": "Test SuperUser",
+        "active": true,
+        "staff": true,
+        "admin": true,
+        "jwt_secret": "34c16a9d-c7dc-4456-b3ac-8489c9625555",
+        "created_at": "2018-10-19T16:03:58.084Z"
+    }
+},
+{
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$120000$HPJ0DxTb4fAE$NZCkx2UXzdEqOxq36H+7CZqsX5KYkKoJo+IEj7Se3jA=",
+        "last_login": "2018-10-30T18:54:08.848Z",
+        "username": "adminEmployee",
+        "email": "abc1@gmail.com",
+        "full_name": "Test Employee",
+        "active": true,
+        "staff": true,
+        "admin": false,
+        "jwt_secret": "ae00aeb8-4246-4edb-816c-02d899bf39a8",
+        "created_at": "2018-10-19T16:05:43.525Z"
+    }
+},
+{
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$120000$qOoP5PkqgcnV$VxhDg1AbqHHC+hR9Vd7qzP0uedux2JZ0ARrmep3K/eY=",
+        "last_login": "2018-10-30T17:43:56.440Z",
+        "username": "adminStaff",
+        "email": "abc2@gmail.com",
+        "full_name": "Test Staff",
+        "active": true,
+        "staff": true,
+        "admin": false,
+        "jwt_secret": "571d7c9a-b74a-4583-87fb-d1248ce2f587",
+        "created_at": "2018-10-19T16:06:19.557Z"
+    }
+}
+]

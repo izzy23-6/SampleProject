@@ -1,0 +1,10 @@
+#title {
+    margin-bottom: 4%;
+}
+
+.VueTables__date-filter {
+    border: 1px solid #ccc;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
